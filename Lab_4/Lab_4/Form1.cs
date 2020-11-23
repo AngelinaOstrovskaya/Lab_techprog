@@ -24,9 +24,7 @@ namespace Lab_4
             this.CosmosList.Clear();
             var rnd = new Random();
             for (var i = 0; i < 10; ++i)
-            {
-               
-                this.CosmosList.Add(new Planet());
+            {                       
                 switch (rnd.Next() % 3) // генерируем случайное число от 0 до 2 
                 {
                     case 0: // если 0, то планета
